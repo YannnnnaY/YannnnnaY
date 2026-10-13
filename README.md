@@ -10,6 +10,7 @@ SQL · Python · Snowflake · dbt · Airflow · PySpark · Power BI · Looker
 
 ## 📌 Featured projects
 
+- **[brokerage-kpi](https://github.com/YannnnnaY/brokerage-kpi)** — Synthetic brokerage data platform: Faker-generated trades (1,000 users, 50K trades) → dbt (3 layers, 20 data-quality tests) → Streamlit KPI dashboard (daily active traders, retention, volume by ticker). [Live demo](https://brokerage-kpi-wcnemmsrqjqnutgebttney.streamlit.app)
 - **[polymarket-pipeline](https://github.com/YannnnnaY/polymarket-pipeline)** — End-to-end pipeline: Polymarket API → PySpark → dbt (3 marts, 14 data-quality tests) → Streamlit dashboard. [Live demo](https://polymarket-pipeline-5lkg9ykvlhvtwgwg85bbxq.streamlit.app)
 - **[stock-pipeline](https://github.com/YannnnnaY/stock-pipeline)** — Airflow-orchestrated daily ingestion (8 tickers) into a 3-layer dbt model with tests and a Streamlit dashboard. [Live demo](https://stock-pipeline-hna6sy8aapcqf6jetnska4.streamlit.app)
 - **[OTA booking A/B test](https://github.com/YannnnnaY/Course-Projects/tree/main/user_conversion_A%3ABTesting)** — End-to-end experiment analysis (SRM check, z-test, guardrail t-test, effect size). Caught a unit-of-analysis mismatch — analysis run at session level instead of user level — and quantified the distortion: z-statistic inflated ~20%, p-value understated ~10x.
