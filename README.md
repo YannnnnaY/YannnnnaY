@@ -6,7 +6,6 @@
 
 SQL · Python · Snowflake · dbt · Airflow · PySpark · Power BI · Looker
 
-*Currently completing a dbt bootcamp to deepen my analytics engineering chops.*
 
 ## 📌 Featured projects
 
